@@ -1,0 +1,14 @@
+metrica,fixed,qlearning
+total_paradas_total,400.0,37.0
+total_paradas_prioritarios,135.0,4.0
+carros_parados_total,1508.0,148.0
+tempo_medio_nao_prioritarios_estimado,32.11124449779912,67.28125
+tempo_medio_total,37.226890756302524,69.0
+total_paradas_nao_prioritarios,265.0,33.0
+carros_parados_nao_prioritarios,420.0,144.0
+paradas_media_por_instante,3.361344537815126,4.625
+tempo_medio_prioritarios,5.115646258503401,1.71875
+velocidade_media_prioritarios,5.323810277161784,5.4886420089282835
+velocidade_media_nao_prioritarios_estimada,2.074341510245463,0.09237906236628479
+carros_parados_prioritarios,1088.0,4.0
+velocidade_media_total,7.398151787407247,5.581021071294568

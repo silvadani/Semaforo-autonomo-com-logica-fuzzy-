@@ -1,0 +1,49 @@
+
+    <html>
+      <head><title>Relatório de Comparação</title></head>
+      <body>
+        <h1>Relatório de Comparação: Tempo Fixo vs Q-Learning</h1>
+        <p><strong>Interpretação:</strong> Este relatório compara o controle de semáforos tradicional (tempo fixo) com o aprendizado por reforço (Q-Learning). Valores menores em "Carros Parados", "Total de Paradas" e "Tempo de Espera" indicam melhor desempenho. Valores maiores em "Velocidade Média" são melhores.</p>
+    
+        <h2>Métricas para Número de Carros Parados</h2>
+        <table border='1' cellpadding='5'>
+          <tr><th>Algoritmo</th><th>Média</th><th>Desvio Padrão</th><th>Máximo</th><th>Mínimo</th></tr>
+          <tr><td>Tempo Fixo</td><td>11.60</td><td>12.84</td><td>40</td><td>0</td></tr>
+          <tr><td>Q-Learning</td><td>18.50</td><td>25.29</td><td>72</td><td>0</td></tr>
+        </table>
+        <p><em>Gráfico mostra a evolução ao longo do tempo. Linha azul: Tempo Fixo. Linha vermelha: Q-Learning.</em></p>
+        <img src='comparacao_carros_parados.png' alt='Comparação de Número de Carros Parados'>
+        
+        <h2>Métricas para Total de Paradas (Estimativa)</h2>
+        <table border='1' cellpadding='5'>
+          <tr><th>Algoritmo</th><th>Média</th><th>Desvio Padrão</th><th>Máximo</th><th>Mínimo</th></tr>
+          <tr><td>Tempo Fixo</td><td>3.08</td><td>3.70</td><td>24</td><td>0</td></tr>
+          <tr><td>Q-Learning</td><td>4.62</td><td>6.32</td><td>18</td><td>0</td></tr>
+        </table>
+        <p><em>Gráfico mostra a evolução ao longo do tempo. Linha azul: Tempo Fixo. Linha vermelha: Q-Learning.</em></p>
+        <img src='comparacao_total_paradas.png' alt='Comparação de Total de Paradas (Estimativa)'>
+        
+        <h2>Métricas para Tempo Médio de Espera (s)</h2>
+        <table border='1' cellpadding='5'>
+          <tr><th>Algoritmo</th><th>Média</th><th>Desvio Padrão</th><th>Máximo</th><th>Mínimo</th></tr>
+          <tr><td>Tempo Fixo</td><td>34.08</td><td>48.19</td><td>201.0</td><td>0.0</td></tr>
+          <tr><td>Q-Learning</td><td>69.00</td><td>108.27</td><td>281.0</td><td>0.0</td></tr>
+        </table>
+        <p><em>Gráfico mostra a evolução ao longo do tempo. Linha azul: Tempo Fixo. Linha vermelha: Q-Learning.</em></p>
+        <img src='comparacao_tempo_espera.png' alt='Comparação de Tempo Médio de Espera (s)'>
+        
+        <h2>Métricas para Velocidade Média (m/s)</h2>
+        <table border='1' cellpadding='5'>
+          <tr><th>Algoritmo</th><th>Média</th><th>Desvio Padrão</th><th>Máximo</th><th>Mínimo</th></tr>
+          <tr><td>Tempo Fixo</td><td>6.77</td><td>4.91</td><td>15.433536420404671</td><td>0.0</td></tr>
+          <tr><td>Q-Learning</td><td>5.58</td><td>5.62</td><td>13.293562958388078</td><td>0.0</td></tr>
+        </table>
+        <p><em>Gráfico mostra a evolução ao longo do tempo. Linha azul: Tempo Fixo. Linha vermelha: Q-Learning.</em></p>
+        <img src='comparacao_velocidade_media.png' alt='Comparação de Velocidade Média (m/s)'>
+        
+        <h2>Comparação de Médias</h2>
+        <p><em>Gráfico de barras mostra as médias gerais. Azul: Tempo Fixo. Vermelho: Q-Learning. Valores nas barras indicam as médias exatas.</em></p>
+        <img src='comparacao_medias.png' alt='Comparação de Médias'>
+      </body>
+    </html>
+    

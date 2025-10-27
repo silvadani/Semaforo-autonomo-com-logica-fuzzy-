@@ -1,0 +1,53 @@
+
+<html>
+<head>
+    <title>Relatório Comparativo: Geral vs Prioritários</title>
+</head>
+<body>
+    <h1>Relatório Comparativo: Resultados Gerais vs Prioritários</h1>
+    <p>Este relatório compara as métricas gerais de todos os veículos com as métricas específicas de veículos prioritários, destacando melhorias no tratamento de emergências e autoridades.</p>
+    
+    <h2>Carros Parados</h2>
+    <table border='1' cellpadding='5'>
+      <tr><th>Categoria</th><th>Algoritmo</th><th>Média</th><th>Desvio Padrão</th><th>Máximo</th><th>Mínimo</th></tr>
+      <tr><td>Geral</td><td>Tempo Fixo</td><td>11.60</td><td>12.84</td><td>40.00</td><td>0.00</td></tr>
+      <tr><td>Geral</td><td>Q-Learning</td><td>18.50</td><td>25.29</td><td>72.00</td><td>0.00</td></tr>
+      <tr><td>Prioritários</td><td>Tempo Fixo</td><td>8.37</td><td>9.89</td><td>24.00</td><td>0.00</td></tr>
+      <tr><td>Prioritários</td><td>Q-Learning</td><td>0.50</td><td>0.76</td><td>2.00</td><td>0.00</td></tr>
+    </table>
+    <p><strong>Melhorias nos Prioritários:</strong> Tempo Fixo: 27.85% redução, Q-Learning: 97.30% redução (comparado ao geral).</p>
+    
+    <h2>Total de Paradas</h2>
+    <table border='1' cellpadding='5'>
+      <tr><th>Categoria</th><th>Algoritmo</th><th>Média</th><th>Desvio Padrão</th><th>Máximo</th><th>Mínimo</th></tr>
+      <tr><td>Geral</td><td>Tempo Fixo</td><td>3.08</td><td>3.70</td><td>24.00</td><td>0.00</td></tr>
+      <tr><td>Geral</td><td>Q-Learning</td><td>4.62</td><td>6.32</td><td>18.00</td><td>0.00</td></tr>
+      <tr><td>Prioritários</td><td>Tempo Fixo</td><td>1.04</td><td>1.25</td><td>7.00</td><td>0.00</td></tr>
+      <tr><td>Prioritários</td><td>Q-Learning</td><td>0.50</td><td>0.76</td><td>2.00</td><td>0.00</td></tr>
+    </table>
+    <p><strong>Melhorias nos Prioritários:</strong> Tempo Fixo: 66.25% redução, Q-Learning: 89.19% redução (comparado ao geral).</p>
+    
+    <h2>Tempo de Espera</h2>
+    <table border='1' cellpadding='5'>
+      <tr><th>Categoria</th><th>Algoritmo</th><th>Média</th><th>Desvio Padrão</th><th>Máximo</th><th>Mínimo</th></tr>
+      <tr><td>Geral</td><td>Tempo Fixo</td><td>34.08</td><td>48.19</td><td>201.00</td><td>0.00</td></tr>
+      <tr><td>Geral</td><td>Q-Learning</td><td>69.00</td><td>108.27</td><td>281.00</td><td>0.00</td></tr>
+      <tr><td>Prioritários</td><td>Tempo Fixo</td><td>4.68</td><td>7.48</td><td>26.00</td><td>0.00</td></tr>
+      <tr><td>Prioritários</td><td>Q-Learning</td><td>1.72</td><td>3.70</td><td>10.50</td><td>0.00</td></tr>
+    </table>
+    <p><strong>Melhorias nos Prioritários:</strong> Tempo Fixo: 86.26% redução, Q-Learning: 97.51% redução (comparado ao geral).</p>
+    
+    <h2>Velocidade Média</h2>
+    <table border='1' cellpadding='5'>
+      <tr><th>Categoria</th><th>Algoritmo</th><th>Média</th><th>Desvio Padrão</th><th>Máximo</th><th>Mínimo</th></tr>
+      <tr><td>Geral</td><td>Tempo Fixo</td><td>6.77</td><td>4.91</td><td>15.43</td><td>0.00</td></tr>
+      <tr><td>Geral</td><td>Q-Learning</td><td>5.58</td><td>5.62</td><td>13.29</td><td>0.00</td></tr>
+      <tr><td>Prioritários</td><td>Tempo Fixo</td><td>4.87</td><td>5.28</td><td>13.82</td><td>0.00</td></tr>
+      <tr><td>Prioritários</td><td>Q-Learning</td><td>5.49</td><td>6.01</td><td>12.70</td><td>0.00</td></tr>
+    </table>
+    <p><strong>Melhorias nos Prioritários:</strong> Tempo Fixo: -28.04% aumento, Q-Learning: -1.66% aumento (comparado ao geral).</p>
+    
+    <h2>Comparação de Médias - Geral vs Prioritários</h2>
+    <img src='comparacao_geral_vs_prioritarios.png' alt='Comparação Geral vs Prioritários'>
+</body>
+</html>
